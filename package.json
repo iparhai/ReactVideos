@@ -4,7 +4,7 @@
   "description": "My Remotion video",
   "scripts": {
     "start": "remotion preview src/index.tsx",
-    "build": "remotion render src/index.tsx HelloWorld out/video.mp4",
+    "build": "remotion render src/index.tsx iParhaiLogo out/video.mp4",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
@@ -22,6 +22,7 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "remotion": "3.2.14",
+    "styled-components": "^5.3.5",
     "typescript": "^4.6.3"
   }
 }
